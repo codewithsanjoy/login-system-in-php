@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #3598DC;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wraper {
+    width: 400px;
+    background-color: white;
+    padding: 20px 15px;
+    margin: 10px;
+    border-radius: 10px;
+  
+
+}
+
+.wraper input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0px;
+    border: none;
+    outline: none;
+    background-color: #F2F2F2;
+}
+
+.wraper .inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 10px;
+
+}
+
+.wraper .inner input {
+    flex: 1 1 150px;
+    /* margin: 5px 0px; */
+}
+
+.wraper h3,
+p {
+    margin: 12px 0px;
+
+}
+
+h3 {
+    font-size: 30px;
+}
+
+button {
+    padding: 6px;
+    width: 100%;
+    font-size: 22px;
+    border: none;
+    background-color: #3598DC;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+h4 {
+    margin: 15px 0px;
+    text-align: center;
+}
+
+h4 a {
+    text-decoration: none;
+}
+input[type="checkbox"]{
+	margin: 10px 0px;
+}
+.res{
+    height: 25px;
+
+    text-align: center;
+}
